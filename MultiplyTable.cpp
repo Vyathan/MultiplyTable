@@ -8,5 +8,10 @@ using namespace std;
 
 int main()
 {
-    cout << 
+    cout << setw(5) << 1 << setw(5) << 2 << setw(5) << 3 << setw(5) << 4 << setw(5) << 5 << endl;
+    cout << setw(5) << 2 << setw(5) << 4 << setw(5) << 6 << setw(5) << 8 << setw(5) << 10 << endl;
+    cout << setw(5) << 3 << setw(5) << 6 << setw(5) << 9 << setw(5) << 12 << setw(5) << 15 << endl;
+    cout << setw(5) << 4 << setw(5) << 8 << setw(5) << 12 << setw(5) << 16 << setw(5) << 20 << endl;
+
+    return 0;
 }
